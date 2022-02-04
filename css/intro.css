@@ -1,0 +1,142 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.intro__title {
+  margin: 0;
+  font-size: 47px;
+  line-height: 59px;
+}
+
+.intro__about {
+  margin: 0 0 0.5em;
+}
+
+.intro__foto {
+  height: 387px;
+  width: 940px;
+  /* max-width: 100%;
+  height: auto; */
+  object-fit: cover; /*пропорционально обрезание фото*/
+  margin-bottom: 104px;
+}
+
+.about__me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__me > p {
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.skills__text {
+  text-align: center;
+  padding-bottom: 83px;
+}
+
+.img__blok {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 940px;
+  margin-bottom: 110px;
+  /* margin-left: 0;
+  margin-right: 0; */
+}
+
+.skills__star {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 940px; 
+}
+
+.skills__text__figma {
+  margin-bottom: 58px;
+  padding-bottom: 65px;
+}
+
+.skills__star {
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 98px;
+}
+
+.skills__text__figma {
+  margin-bottom: 18px;
+  padding-bottom: 103px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio__title {
+  margin-bottom: 47px;
+}
+
+.portfolio__link {
+  margin-top: 42px;
+  margin-bottom: 96px;
+}
+.portfolio > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 114px;
+}
+.contacts__text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  border-radius: 20px;
+  background: black;
+  color: white;
+  font-size: 14px;
+  padding: 13px 24px 9px 28px;
+}
+
+.contacts__button {
+  margin-top: 29px;
+}
+
+.contacts__image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 342px;
+  margin-top: 79px;
+}
+
+.contacts__footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 45px;
+  margin-bottom: 123px;
+}
